@@ -1,0 +1,71 @@
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  display: flex;
+}
+
+button {
+  color: white;
+  background-color: rgb(101, 115, 243);
+  margin-left: 70%;
+  border-radius: 3px;
+  border: 0;
+  padding: 5px 35px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+span {
+  list-style: none;
+  display: flex;
+  padding-left: 200px;
+}
+
+section {
+  background-image: url(https://images.pexels.com/photos/63340/pexels-photo-63340.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: block;
+  padding-top: 111px;
+}
+
+.hcontainer {
+  width: 40%;
+  height: 150px;
+  padding-left: 30%;
+}
+
+.bcontainer {
+  padding: 5px 49%;
+}
+
+footer {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.plate {
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  margin: 50px;
+  padding-bottom: 205px;
+}

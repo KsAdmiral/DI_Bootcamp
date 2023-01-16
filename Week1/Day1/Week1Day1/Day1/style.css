@@ -1,0 +1,75 @@
+h1 {
+    background-color: aquamarine;
+}
+
+/* h1, h2, h3 {
+    border: 2px solid red;
+}
+
+
+h1, h2 {
+    color : blue;
+} */
+
+h2 {
+    color: blue;
+}
+
+/* p {
+    color: red
+} */
+
+/* all the p inside the section */
+section p {
+    color:green
+}
+
+/* direct children */
+section > p {
+    color : orange
+}
+/* a paragraph that is sibling of an H2 */
+h2~p {
+    color: red
+}
+
+/* a paragraph that is adjacent sibling of an H2 */
+h2+p {
+    color: red
+}
+
+
+
+/* id is unique - an element can have only
+one id, and unique */
+
+#titleOne {
+    border: 2px solid green;
+}
+
+/* an element can have several classes, classes can be in several elements */
+
+.ocean {
+    border: 2px solid green;
+}
+
+.para {
+    font-weight: bold;
+    font-size: 40px;
+    color: red
+}
+
+.para {
+    font-weight: bold;
+    font-size: 40px;
+    color: red
+}
+
+
+/* NAV */
+
+nav {
+
+}
+
+/* Section */

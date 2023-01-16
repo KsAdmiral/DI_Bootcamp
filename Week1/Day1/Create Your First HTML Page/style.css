@@ -1,0 +1,36 @@
+#catheading {
+  padding-left: 50px;
+  text-decoration: underline;
+}
+
+ul {
+  padding-left: 100px;
+}
+
+.catmedia {
+  text-align: center;
+}
+
+img {
+  width: 500px;
+  height: 300px;
+  border: 6px solid orange;
+}
+
+#lions > h3 {
+  text-align: center;
+  color: red;
+  border: 3px solid red;
+  width: 80%;
+  margin: auto;
+}
+
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+td {
+  padding: 20px 0px;
+}
