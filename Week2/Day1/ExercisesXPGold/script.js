@@ -30,6 +30,8 @@ let str2 = "pod";
 
 let newStr1 = str2.slice(0, 2) + str1.slice(2);
 let newStr2 = str1.slice(0, 2) + str2.slice(2);
+// let newStr1 = str2.slice(0, 2) + str1.slice(-1);
+// let newStr2 = str1.slice(0, 2) + str2.slice(-1);
 console.log(newStr1);
 console.log(newStr2);
 
@@ -42,6 +44,19 @@ let thirdWord =
   firstWord.slice(0, 2) +
   secondWord.slice(2);
 console.log(thirdWord);
+
+// const str1 = "mix";
+// const str2 = "pod";
+//             //from the 1st letter until the second one included
+//             // +
+//             // the rest of the zord stqrting at the letter position 2
+// const newStr1 = str1.slice(0, 2) + str2.slice(2);
+// const newStr2 = str2.slice(0, 2) + str1.slice(2);
+
+// const allString = `${newStr1} ${newStr2}`;
+// console.log(allString);
+
+// 'pox mid'
 
 // 🌟 Exercise 3 : Calculator
 // Instructions

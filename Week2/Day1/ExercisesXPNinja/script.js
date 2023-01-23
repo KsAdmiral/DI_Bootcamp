@@ -47,11 +47,11 @@ true != true;
 // Examples
 // "2,3"➞ 5
 
-// let num1 = prompt("Choose few numbers separated by coma");
-// let newnum = num1.split(",");
-// console.log(newnum);
-// const sumArray = newnum.reduce((a, b) => parseInt(a) + parseInt(b), 0);
-// console.log(sumArray);
+let num1 = prompt("Choose few numbers separated by coma");
+let newnum = num1.split(",");
+console.log(newnum);
+const sumArray = newnum.reduce((a, b) => parseInt(a) + parseInt(b), 0);
+console.log(sumArray);
 
 // / 🌟 Exercise 3 : Find Nemo
 // Instructions
