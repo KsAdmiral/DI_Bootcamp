@@ -40,7 +40,7 @@ solarSystemPlanets.forEach((planet, index) => {
   newDiv.style.backgroundColor = colors[index];
   newDiv.textContent = planet["name"];
 
-  for (let i = 0; i < solarSystemPlanets["moons"]; i++) {
+  for (let i = 0; i < planet["moons"]; i++) {
     const moonDiv = document.createElement("div");
     moonDiv.classList.add("moon");
     moonDiv.style.left = i * 20 + "px";
