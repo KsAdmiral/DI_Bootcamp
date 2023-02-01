@@ -1,0 +1,22 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  max-height: 60% !important;
+  max-width: 30% !important;
+  margin-top: 10%;
+}
+
+.col-3,
+.col-6 {
+  padding: 0px !important;
+}
+
+.input {
+  padding: 6px 0;
+  margin-bottom: 4px;
+  border-radius: 4px;
+}
