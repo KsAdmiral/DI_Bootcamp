@@ -1,4 +1,4 @@
-// Exercise 1 : Analyzing The Map Method
+// Exercise 1 : Analyzing The Map Method ----------------------------------------------------
 // Instructions
 // Analyze this code, what will be the output ?
 
@@ -8,7 +8,7 @@
 // });
 // // 2 , 4 , 6
 
-// Exercise 2: Analyzing The Reduce Method
+// Exercise 2: Analyzing The Reduce Method ----------------------------------------------------
 // Instructions
 // Analyze this code, what will be the output ?
 
@@ -23,7 +23,7 @@
 // );
 // [1, 2, 0, 1, 2, 3]
 
-// Exercise 3 : Analyze This Code
+// Exercise 3 : Analyze This Code ----------------------------------------------------
 // Instructions
 // Using this code:
 
@@ -37,7 +37,7 @@
 // // 0,1,2,3,4,5
 // console.log(newArray);
 
-// Exercise 4 : Nested Arrays
+// Exercise 4 : Nested Arrays ----------------------------------------------------
 // Instructions
 // Using a method, take this array
 const array = [[1], [2], [3], [[[4]]], [[[5]]]];
