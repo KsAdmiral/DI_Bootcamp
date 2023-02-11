@@ -17,17 +17,6 @@
 // Do we need to consider whitespace?
 // Trim whitespace prior to comparison.
 
-// function anagram(a, b) {
-//   const aSpread = a;
-//   const bSpread = [...b].sort();
-//   //   aSpread.flat(1).join(" ");
-//   bSpread.flat(1).join(" ");
-//   console.log(aSpread);
-//   console.log(bSpread);
-//   console.log(aSpread.includes(bSpread));
-// }
-// anagram("Astronomer", "Moon starer");
-
 function isAnagram(string1, string2) {
   string1 = string1.toLowerCase().replace(/\s/g, "");
   string2 = string2.toLowerCase().replace(/\s/g, "");
