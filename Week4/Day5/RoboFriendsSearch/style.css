@@ -1,0 +1,23 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(bg.png);
+}
+
+.cardRobot {
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 3vw;
+  display: inline-block;
+  background-color: aqua;
+}
+
+img {
+    border: 2px solid black;
+    border-radius: 250px;
+    background-color: #2e958b;
+}
